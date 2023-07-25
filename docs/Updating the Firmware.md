@@ -18,7 +18,7 @@ The latest official release of the OpenCore firmware will always be posted on th
 The most recent version will be at the top of the page, and will be marked with a "Latest" tag. The file you need to download is the one ending in `.hex`. This should be named something like `OpenCore.X.X.X_DDDDDDDD.hex`, where `X.X.X` is the version number and `DDDDDDDD` is the date it was released.
 
 >[!info] Example Release Screenshot
->![](Pasted%20image%2020230504113002.png)
+>![[Pasted image 20230504113002.png]]
 
 You don't need to download the source code unless you're a developer (or just curious).
 
@@ -35,8 +35,7 @@ The primary (and easiest) way to update the firmware on Windows is to use Giltho
 4. Open Gilthoniel.
 
 > [!warning] Error message
-> ![](Pasted%20image%2020230504124514.png)
-> 
+> ![[Pasted image 20230504124514.png]]
 > If you see an error message saying no sabers were detected, try the following:
 > 1. Close Gilthoniel
 > 2. Disconnect your saber
@@ -47,16 +46,16 @@ The primary (and easiest) way to update the firmware on Windows is to use Giltho
 
 5. In the menu bar, click **Tools -> Update Firmware** from File.
 
-![](Pasted%20image%2020230504140637.png)
+![[Pasted image 20230504140637.png]]
 
 6. Select the `.hex` file you downloaded earlier.
 7. A box will appear to confirm your choice. Click **Yes**.
 
-![](Pasted%20image%2020230504141107.png)
+![[Pasted image 20230504141107.png]]
 
 8. A command prompt window will appear. Type **Y**.
 
-![](Pasted%20image%2020230504141329.png)
+![[Pasted image 20230504141329.png]]
 
 9. Wait until the process is complete. Your saber will restart and you will see a message that says "Press any key to continue." Press any key to close the command prompt window.
 
@@ -71,7 +70,7 @@ If for some reason the above steps don't work, or if you just want to try someth
 1. Download [[Getting Started#Software|tycmd.exe]], then [[#Downloading the Latest Firmware|download the firmware update]] you wish to install. Make sure they are both in the same folder (for example, your Downloads folder).
 2. Open the Windows Command Prompt. Click on the search box and type `command`. Click on the "Command Prompt" icon.
 
-![](Pasted%20image%2020230504142928.png)
+![[Pasted image 20230504142928.png]]
 
 3. In the Command Prompt window, use the `cd` command to change to the folder where you downloaded the files. 
 	- For example, if you saved them to your Downloads folder, you should be able to type `cd Downloads` and press **Enter**.
@@ -97,7 +96,7 @@ tycmd.exe upload OpenCore.3.0.1_20230404.hex
 
 7. Wait for the command to finish. Your saber will restart. Don't worry if you see the "Failed to reset board" message at the end--everything is still working fine.
 
-![](Pasted%20image%2020230504144726.png)
+![[Pasted image 20230504144726.png]]
 
 Congratulations! Your firmware has been updated! You can close the Command Prompt now.
 
@@ -122,7 +121,7 @@ chmod u+x tycmd
 	- In the message box that appears (similar to the one below), click "Open".
 	- You may briefly see a Terminal window flash open and then close itself. That's okay! That means it worked.
 
-![](app://5e7eb4db5bd60d8ee68e6d475ab7d398d95e/Users/jramboz/Library/Mobile%20Documents/iCloud~md~obsidian/Documents/sabersounds/docs/img/Pasted%20image%2020230504152241.png?1683228161231)
+	![[Pasted image 20230504152431.png]]
 
 8. Back in the Terminal window, type the following command, then press **Enter**:
 ```shell
@@ -142,7 +141,7 @@ chmod u+x tycmd
 
 9. Wait for the command to finish. Your saber will restart. Don't worry if you see the "Failed to reset board" message at the end--everything is still working fine.
 
-![](Pasted%20image%2020230504152738.png)
+![[Pasted image 20230504152738.png]]
 
 Congratulations! Your firmware has been updated! You can close the Terminal now.
 
@@ -171,5 +170,3 @@ tycmd upload OpenCore-XXXX.hex
 > If you still see an error message, try a different USB cable and repeat as necessary. Seriously, picky picky Animas.
 
 Congratulations! Your firmware has been updated!
-
-![](Pasted%20image%2020230725173421.png)

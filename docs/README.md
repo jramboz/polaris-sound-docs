@@ -8,9 +8,9 @@ This set of documents provides instructions on uploading custom sounds to your [
 If you're brand new to this process, we suggest going to the [[Getting Started]] page to begin. Otherwise, you can select a specific topic from the Table of Contents to the left.
 
 # About
-These documents were written by [Jason "Hawkeye" Ramboz](https://github.com/jramboz). The latest version may be found on Github.
+These documents were written by [Jason "Hawkeye" Ramboz](https://github.com/jramboz). The latest version may be found on [Github](https://github.com/jramboz/polaris-sound-docs).
 
-Documentation files were created using [Obsidian](http://obsidian.md) and published using [obsidian-publish-mkdocs](https://github.com/jobindjohn/obsidian-publish-mkdocs).
+Documentation files were created using [Obsidian](http://obsidian.md) and published using [Obsidian Mkdocs Publisher](https://obsidian-publisher.netlify.app/)
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>

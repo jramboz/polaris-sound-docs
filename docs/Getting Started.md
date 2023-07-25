@@ -2,7 +2,7 @@
 share: true
 ---
 # Welcome!
-Welcome to the wonderful world of customizing your Polaris EVO! While this may seem intimidating at first, it's actually fairly straightfoward once you understand some of the basic concepts. Hopefully these documents will help demystify the process and make it more accessible to all the wonderful members of the [LudoSport](http://lludosport.net) family.
+Welcome to the wonderful world of customizing your Polaris EVO! While this may seem intimidating at first, it's actually fairly straightfoward once you understand some of the basic concepts. Hopefully these documents will help demystify the process and make it more accessible to all the wonderful members of the [LudoSport](http://ludosport.net) family.
 
 ## Updated documentation
 For the latest version of this documentation, please see the link in the [[README#About|About]] section of the [[README]] file.

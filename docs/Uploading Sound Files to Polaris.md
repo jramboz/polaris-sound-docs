@@ -38,7 +38,7 @@ Before uploading new files, it's always recommended to erase the existing ones. 
 3. Open [[Getting Started#Software|Gilthoniel]].
 
 > [!warning] Error message
-> 
+> ![[Pasted image 20230504124514.png]]
 > If you see an error message saying no sabers were detected, try the following:
 > 1. Close Gilthoniel
 > 2. Disconnect your saber
@@ -49,23 +49,23 @@ Before uploading new files, it's always recommended to erase the existing ones. 
 
 4. Click on the **Sounds** tab, then click the **Delete Files** button.
 
-
+![[Pasted image 20230718120454.png]]
 
 5. A confirmation dialog will appear. Click **Yes**.
 
-
+![[Pasted image 20230718120625.png]]
 
 6. ANOTHER confirmation dialog will appear. Click **Yes** again.
 
-
+![[Pasted image 20230718120722.png]]
 
 The debug panel on the right will show the progress. It will take a couple minutes.
 
-
+![[Pasted image 20230718120903.png]]
 
 Eventually, you will see two lines saying, "OK, Now re-load your sound files," and "OK, Serial Flash Erased.":
 
-
+![[Pasted image 20230718121008.png]]
 
 Congratulations! You're ready to upload your new files!
 
@@ -74,7 +74,7 @@ As mentioned above, this option does not work for many people in Gilthoniel. The
 
 To upload files, click the **Sounds** tab, then the **Upload Files** button.
 
-
+![[Pasted image 20230718121739.png]]
 
 > [!error]
 > If your **Upload Files** button is greyed out (as is mine in the screenshot), this method won't work. You'll have to use the command line instructions below.
@@ -95,7 +95,7 @@ It's command line time! Hooray!
 1. Download [[Getting Started#Software|py2saber.exe]]. Place the file in the same folder as your `.RAW` [[Converting Sound Files for Polaris|sound files]].
 2. Open the Windows Command Prompt. Click on the search box and type `command`. Click on the "Command Prompt" icon.
 
-
+![[Pasted image 20230504142928.png]]
 
 3. In the Command Prompt window, use the `cd` command to change to the folder where you downloaded the files. 
 	- For example, if you saved them to your Downloads folder, you should be able to type `cd Downloads` and press **Enter**.
@@ -116,13 +116,13 @@ py2saber.exe --erase-all
 
 You will see the following message:
 
-
+![[Pasted image 20230718150318.png]]
 
 7. Type **Y** and press **Enter**. The saber will begin to erase. 
 
 You will see several rows of # signs appear as the program progresses. When the process is complete, you will see the following:
 
-
+![[Pasted image 20230718150546.png]]
 
 Your saber is erased and ready for your new sound files!
 
@@ -139,7 +139,7 @@ py2saber.exe *.RAW
 
 Your files will begin copying to the saber. You will see a screen similar to the following:
 
-
+![[Pasted image 20230718161858.png]]
 
 Once the command completes, your new files will be ready! Make sure you assign them to the right effects in Gilthoniel.
 
@@ -167,13 +167,13 @@ py2saber --erase-all
 
 You will see the following message:
 
-
+![[Pasted image 20230724160300.png]]
 
 7. Type **Y** and press **Enter**. The saber will begin to erase. 
 
 You will see several rows of # signs appear as the program progresses. When the process is complete, you will see the following:
 
-
+![[Pasted image 20230724160504.png]]
 
 Your saber is erased and ready for your new sound files!
 8. Type the following command and press **Enter**:
@@ -189,7 +189,7 @@ py2saber *.RAW
 
 Your files will begin copying to the saber. You will see a screen similar to the following:
 
-
+![[Pasted image 20230724160611.png]]
 
 Once the command completes, your new files will be ready! Make sure you assign them to the right effects in Gilthoniel.
 
@@ -240,7 +240,7 @@ If you used the [[Converting Sound Files for Polaris#Sound File Names|default fi
 1. With your saber connected and turned on, open [[Getting Started#Software|Gilthoniel]].
 2. Go to the Sounds tab. You will see a screen similar to the following:
 
-
+![[Pasted image 20230724170213.png]]
 
 >[!question] What the heck am I looking at?
 >This screen can be a little bit intimidating at first. But, as a wise man once said, don't panic! It's actually pretty straightforward.

@@ -1,4 +1,4 @@
-site_name: Polaris Anima EVO Sound Font Tutorial # Change this to your site name
+site_name: Polaris EVO Sounds Tutorial # Change this to your site name
 site_description: Step-by-step instructions for converting and installing sound files on a Lama di Luce Polaris EVO light saber
 site_url: https://jramboz.github.io/polaris-sound-docs/ # Change this to your site URL
 
@@ -36,6 +36,8 @@ theme:
         #- navigation.tabs
         #- navigation.tabs.sticky
         - navigation.expand
+        - navigation.footer
+        - toc.integrate
         - search.suggest
         - search.highlight
         
@@ -69,7 +71,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - admonition
   - toc:
-      permalink: true
+      permalink: false
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
@@ -83,9 +85,9 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
+      locale: en
       custom_format: "%A %d %B %Y"
-      enable_creation_date: true
+      enable_creation_date: false
   - ezlinks:
         wikilinks: true
   - awesome-pages
@@ -137,7 +139,7 @@ extra:
     fix_heading: true
 
 nav:
-  - Home: README.md
+  - Home: 'Introduction.md'
   - 'Getting Started': 'Getting Started.md'
   - 'Updating the Firmware': 'Updating the Firmware.md'
   - 'Sound Fonts': 'Sound Fonts.md'

@@ -109,7 +109,7 @@ Before we begin, we need to get everything set up properly to make the conversio
 
 1. Download [[Getting Started#Software|SoX for Windows]] from the Polaris-Opencore Github Repository. Extract the `.zip` file somewhere handy, for example your Downloads folder. It should look something like this:
 
-
+![[Pasted image 20230516155555.png]]
 
 2. Download your preferred [[Sound Fonts|sound font]] and extract the files to a convenient folder.
 3. Locate the `.wav` sound files.
@@ -130,7 +130,7 @@ Follow these steps to use the batch conversion scripts supplied with SoX for Win
 3. Double-click on either `convert_from_CFX_to_Polaris_EVO.cmd` or `convert_from_ProffieOS_to_Polaris_EVO.cmd`, depending on how you have named your files.
 
 A window will appear similar to the one below. After a few seconds, you should see a line saying "Press any key to continue..."
-
+![[Pasted image 20230517100910.png]]
 
 > [!note]
 > In my screenshot, you may see some lines that say "No such file or directory." That's because the sound font I was using had [[#^431156|fewer files]] than the script expected.
@@ -138,7 +138,7 @@ A window will appear similar to the one below. After a few seconds, you should s
 4. Press any key. The window will close.
 5. In your SoX folder, you should now also see a bunch of files ending in `.RAW`. Congratulations! These are now ready to be uploaded to your saber!
 
-
+![[Pasted image 20230517101335.png]]
 
 ## Manually Converting Files (Win)
 If the batch script above doesn't work for you, or if you want to convert additional files, you can use the steps below to manually convert each file.
@@ -155,7 +155,7 @@ You only need to follow these steps once to install and configure SoX for system
 1. Download and install [SoX for Windows](https://sourceforge.net/projects/sox/files/latest/download). 
 2. Open the Windows Command Prompt. Click on the search box and type `command`. Click on the "Command Prompt" icon. ^1da978
 
-
+![[Pasted image 20230504142928.png]]
 
 3. In the Command Prompt window, type the following command and press **Enter**:
 
@@ -168,7 +168,7 @@ setx path "%path%;C:\Program Files (x86)\sox-14-4-2"
 
 You should see a message similar to the one below.
 
-
+![[Pasted image 20230517112158.png]]
 
 4. Close the Command Prompt. This is important, because the changes to the Path variable won't be recognized until the next time you open a new Command Prompt.
 
@@ -179,7 +179,7 @@ To test that SoX is installed properly, you ccan do the following:
 
 You should see a bunch of text appear in the Command Prompt similar to what's show below. This means SoX is ready to go!
 
-
+![[Pasted image 20230517112556.png]]
 
 ### Convert Files via Command Line
 Once SoX is installed, converting from the command line is pretty straightforward.
@@ -199,7 +199,7 @@ sox --clobber filename.wav -t raw -b 16 -c 1 -r 44100 OUTPUT.RAW
 
 After a very short pause, you should get a new command prompt line, like this:
 
-
+![[Pasted image 20230517114910.png]]
 
 > [!tip]- Deciphering the Magic Formula
 > If you're interested, here's a little more info on what exactly the above command is doing. Feel free to skip it if you want.
@@ -251,11 +251,11 @@ brew install sox
 
 This will download and install SoX as well as other programs it needs to run. You should see something like the following:
 
-
+![[Pasted image 20230517124208.png]]
 
 To test that it was installed, type `sox` in the Terminal and press **Enter**. You should see a bunch of text similar to the following:
 
-
+![[Pasted image 20230517124330.png]]
 
 > [!note] Other Ways to Install
 > If you prefer not to use Homebrew, you can also use the Mac installer from the SoX web page. However, you'll have to manually add it to your PATH to be able to use it in Terminal. You can also build it yourself from source. I'm going to omit instructions for these, but if you need help feel free to [[README#About|reach out]].
@@ -279,7 +279,7 @@ Follow these steps to use the batch conversion scripts. This will convert all th
 3. Copy the extracted files to the folder containing your `.wav` files.
 4. Rename the `.wav` sound files to the [[#Sound File Names|input filenames]] listed above. You can use either the CFX or Proffie naming schemes; just be consistent.
 5. Right-click on either `convert_from_CFX_to_Polaris_EVO` or `convert_from_ProffieOS_to_Polaris_EVO` (depending on how you have named your files) and click "Open". A message will appear similar to the one below:
-
+![[Pasted image 20230517142229.png]]
 
 6. Click "Open".
 
@@ -288,7 +288,7 @@ Follow these steps to use the batch conversion scripts. This will convert all th
 
 A window will appear similar to the one below. After a few seconds, you should see a line saying "Press any key to continue..."
 
-
+![[Pasted image 20230517142418.png]]
 
 > [!note]
 > In my screenshot, you may see some lines that say "No such file or directory." That's because the sound font I was using had [[#^431156|fewer files]] than the script expected.
@@ -296,7 +296,7 @@ A window will appear similar to the one below. After a few seconds, you should s
 4. Press any key. The window will close.
 5. In your sound file folder, you should now also see a bunch of files ending in `.RAW`. Congratulations! These are now ready to be uploaded to your saber!
 
-
+![[Pasted image 20230517142529.png]]
 
 ## Manually Converting Files (Mac)
 If the batch script above doesn't work for you, or if you want to convert additional files, you can use the steps below to manually convert each file.
@@ -319,7 +319,7 @@ sox --clobber filename.wav -t raw -b 16 -c 1 -r 44100 OUTPUT.RAW
 
 After a very short pause, you should get a new command prompt line, like this:
 
-
+![[Pasted image 20230517143729.png]]
 
 > [!tip]- Deciphering the Magic Formula
 > If you're interested, here's a little more info on what exactly the above command is doing. Feel free to skip it if you want.

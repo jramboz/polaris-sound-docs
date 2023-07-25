@@ -18,7 +18,7 @@ The latest official release of the OpenCore firmware will always be posted on th
 The most recent version will be at the top of the page, and will be marked with a "Latest" tag. The file you need to download is the one ending in `.hex`. This should be named something like `OpenCore.X.X.X_DDDDDDDD.hex`, where `X.X.X` is the version number and `DDDDDDDD` is the date it was released.
 
 >[!info] Example Release Screenshot
->![](img/Pasted image 20230504113002.png)
+>![](Pasted%20image%2020230504113002.png)
 
 You don't need to download the source code unless you're a developer (or just curious).
 

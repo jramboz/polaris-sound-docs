@@ -171,3 +171,5 @@ tycmd upload OpenCore-XXXX.hex
 > If you still see an error message, try a different USB cable and repeat as necessary. Seriously, picky picky Animas.
 
 Congratulations! Your firmware has been updated!
+
+![](Pasted%20image%2020230725173421.png)

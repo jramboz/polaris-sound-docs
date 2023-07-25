@@ -1,14 +1,15 @@
 ---
 share: true
 ---
+
 # Welcome!
 Welcome to the wonderful world of customizing your Polaris EVO! While this may seem intimidating at first, it's actually fairly straightfoward once you understand some of the basic concepts. Hopefully these documents will help demystify the process and make it more accessible to all the wonderful members of the [LudoSport](http://ludosport.net) family.
 
 ## Updated documentation
-For the latest version of this documentation, please see the link in the [[README#About|About]] section of the [[README]] file.
+For the latest version of this documentation, please see the link in the [About](Introduction.md#About) section of the [Introduction](Introduction.md) file.
 
 ## Contributing to this documentation
-If you'd like to contribute to this documentation, please [[README#About|contact the author]] or submit a pull request to the Github repository.
+If you'd like to contribute to this documentation, please [Contact the Author](README.md#About) or submit a pull request to the Github repository.
 
 # What You'll Need
 Before we begin, there are a few things you'll need to gather.
@@ -31,7 +32,7 @@ You will need:
 
 - [Gilthoniel Saber Manager](http://sabers.amazer.uk/?p=gilthoniel)
 - [Sound eXchange (SoX)](https://sox.sourceforge.net/) - Windows users download [here](https://github.com/LamaDiLuce/polaris-opencore/raw/master/Utilities/SoX_for_Polaris_EVO.zip)
-- A lightsaber [[Sound Fonts|sound font]]
+- A lightsaber [sound font](Sound%20Fonts.md)
 - One of the following:
 	- Command-line `py2saber` (recommended) - [GitHub](https://github.com/jramboz/py2saber/releases/latest)
 	- Command-line `sendtosaber` - [Win32](https://github.com/LamaDiLuce/polaris-opencore/raw/master/Utilities/sendtosaber_x32.exe), [Win64](https://github.com/LamaDiLuce/polaris-opencore/raw/master/Utilities/sendtosaber_x64.exe), [Mac](https://github.com/LamaDiLuce/polaris-opencore/raw/master/Utilities/sendtosaber)

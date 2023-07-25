@@ -1,6 +1,6 @@
-site_name: your_site_name # Change this to your site name
-site_description: A cool description of your site
-site_url: https://change_me.io/ # Change this to your site URL
+site_name: Polaris Anima EVO Sound Font Tutorial # Change this to your site name
+site_description: Step-by-step instructions for converting and installing sound files on a Lama di Luce Polaris EVO light saber
+site_url: https://jramboz.github.io/polaris-sound-docs/ # Change this to your site URL
 
 theme:
     name: 'material'
@@ -32,9 +32,9 @@ theme:
         name: Switch to light mode
     features:
         - navigation.indexes
-        - navigation.top
-        - navigation.tabs
-        - navigation.tabs.sticky
+        - navigation.left
+        #- navigation.tabs
+        #- navigation.tabs.sticky
         - navigation.expand
         - search.suggest
         - search.highlight
@@ -124,7 +124,7 @@ extra_css:
 extra:
   SEO: assets/meta/SEO.png
   comments: false #disable comments globally
-  generate_graph: true #generate the graph of the site
+  generate_graph: false #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
   no-auto-h1: false #disable the automatic generation of h1 if no h1 is found
   blog_list:
@@ -135,3 +135,12 @@ extra:
   hooks:
     strip_comments: true
     fix_heading: true
+
+nav:
+  - Home: README.md
+  - 'Getting Started': 'Getting Started.md'
+  - 'Updating the Firmware': 'Updating the Firmware.md'
+  - 'Sound Fonts': 'Sound Fonts.md'
+  - 'Sound Fonts on Polaris': 'Sound Fonts on Polaris.md'
+  - 'Converting Sound Files for Polaris': 'Converting Sound Files for Polaris.md'
+  - 'Uploading Sound Files to Polaris': 'Uploading Sound Files to Polaris.md'

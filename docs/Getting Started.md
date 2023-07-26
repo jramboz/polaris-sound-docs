@@ -5,7 +5,7 @@ share: true
 Welcome to the wonderful world of customizing your Polaris EVO! While this may seem intimidating at first, it's actually fairly straightfoward once you understand some of the basic concepts. Hopefully these documents will help demystify the process and make it more accessible to all the wonderful members of the [LudoSport](http://ludosport.net) family.
 
 ## Updated documentation
-For the latest version of this documentation, please see the link in the [[README#About|About]] section of the [[README]] file.
+For the latest version of this documentation, please see the link in the [About](Introduction.md#About) section of the [Introduction](Introduction.md).
 
 ## Contributing to this documentation
 If you'd like to contribute to this documentation, please [[README#About|contact the author]] or submit a pull request to the Github repository.

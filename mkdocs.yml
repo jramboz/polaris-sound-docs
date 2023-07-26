@@ -4,8 +4,8 @@ site_url: https://jramboz.github.io/polaris-sound-docs/ # Change this to your si
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/favicon-32.png
+    favicon: assets/meta/favicon-32.png
     custom_dir: overrides
     font:
         text: Ubuntu

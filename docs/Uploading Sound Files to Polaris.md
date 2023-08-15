@@ -265,4 +265,4 @@ If you used the [[Converting Sound Files for Polaris#Sound File Names|default fi
 
 That's it! After all that, you're done! Test out your new saber sounds and see what you think. If something's not working as expected, go back and repeat these steps. If it still doesn't work, please [[Getting Started#Troubleshooting and Getting Help|reach out for help]].
 
-Now go out, enjoy your new sounds, and [Spread the Light](http://lludosport.net)!
+Now go out, enjoy your new sounds, and [Spread the Light](http://ludosport.net)!
